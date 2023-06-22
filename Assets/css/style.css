@@ -19,7 +19,7 @@ p {
     color: rgb(139, 56, 216);
     font-size: 1.3em;
 }
-
+/*styling button*/
 button {
     outline: none;
     background-color: black;
@@ -27,8 +27,8 @@ button {
     font-size: 1.3em;
 }
 .outer-container {
-padding: 10 px;
-height: 100 vh;
+padding: 10px;
+height: 100vh;
 display: flex ;
 flex-direction: column;
 justify-content: start;
@@ -48,8 +48,29 @@ justify-content: start;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-h1, h2{
+} 
+
+h1, h2 {
     color: darkmagenta;
+    text-align: center;
 }
+/*header section*/
+.start-quiz{
+     
+    margin-top: 5%;
+    margin-left:20%;
+    margin-right: 20%;
+}
+
+.start-quiz p {
+    text-align: center;
+   
+
+}
+.start-quiz button{
+    display: block;
+    margin: 0 auto;
+}
+
+
 
