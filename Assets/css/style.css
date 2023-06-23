@@ -54,12 +54,16 @@ h1, h2 {
     color: darkmagenta;
     text-align: center;
 }
+li{
+    list-style: none;
+}
 /*header section*/
 .start-quiz{
      
     margin-top: 5%;
     margin-left:20%;
     margin-right: 20%;
+    background-color: cornflowerblue;
 }
 
 .start-quiz p {
@@ -67,7 +71,7 @@ h1, h2 {
    
 
 }
-.start-quiz button{
+.start-quiz button{ 
     display: block;
     margin: 0 auto;
 }
@@ -76,6 +80,7 @@ main {
     margin-top: 5%;
     margin-left:20%;
     margin-right: 20%;
+    background-color: cornflowerblue;
 }
 
 
