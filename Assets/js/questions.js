@@ -1,26 +1,26 @@
 var questions= [ 
     {
-        question:"This is the first question.",
-        option1:"Option1 from question 1", 
-        option2:"Option2 from question 1", 
-        option3:"Option3 from question 1",
-        option4:"Option4 from question 1",
-        correct: "Option2 from question 1"
+        question:"Who invented Javascript?",
+        option1:"Sheryl Stanberg", 
+        option2:"Brendan Eich", 
+        option3:"Steven Speilberg",
+        option4:"Bill Gates",
+        correct: "Brendan Eich"
     },
     {
-        question:"This is the second question.",
-        option1:"Option1 from question 2", 
-        option2:"Option2 from question 2", 
-        option3:"Option3 from question 2",
-        option4:"Option4 from question 2",
-        correct: "Option3 from question 2"
+        question:"Which tool is used to ensure code quality?",
+        option1:"Angular", 
+        option2:"jQuery", 
+        option3:"Eslint",
+        option4:"RequireJS",
+        correct: "Eslint"
     },
     {
-        question:"This is the third question.",
-        option1:"Option1 from question 3", 
-        option2:"Option2 from question 3", 
-        option3:"Option3 from question 3",
-        option4:"Option4 from question 3",
-        correct: "Option4 from question 3"
+        question:"Inside which element do you put Javascript",
+        option1:"<var>", 
+        option2:"<code>", 
+        option3:"<section>",
+        option4:"<script>",
+        correct: "<script>"
     }
 ]
