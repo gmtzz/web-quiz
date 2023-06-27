@@ -82,6 +82,12 @@ main {
     margin-right: 20%;
     background-color: cornflowerblue;
 }
-
+.hide{
+    display:none;
+    
+}
+.show{
+    display: block;
+}
 
 

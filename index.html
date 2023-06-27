@@ -26,24 +26,30 @@
             <header class="start-quiz">
                 <h1>Javascript Quiz</h1>
                 <p>When you are ready, please start the quiz!</p>
-                <button> Start Quiz</button>
+                <button id="startbtn"> Start Quiz</button>
 
             </header>
             <!--quiz content-->
-            <main>
-                <section class="question-page">
-                    <h2>Question </h2>
-                    <ul>
-                        <li><button>Opt 1</button></li>
-                        <li><button>Opt 2</button></li>
-                        <li><button>Opt 3</button></li>
-                        <li><button>Opt 4</button></li>
+            
+                <section class="question-page hide">
+                    <h2 class="questionTitle">Question </h2>
+                    <ul class="optionGrid">
+                        <li><button id="btn1">Opt 1</button></li>
+                        <li><button id="btn2">Opt 2</button></li>
+                        <li><button id="btn3">Opt 3</button></li>
+                        <li><button id ="btn4">Opt 4</button></li>
 
                     </ul>
 
                 </section>
 
-            </main>
+                <section class="finish-quiz-page hide">
+                    
+
+
+                </section>
+
+            
 
 
         </div>
@@ -53,6 +59,7 @@
 
 
     </div>
-    
+    <script src="./Assets/js/questions.js"></script>
+    <script src="./Assets/js/script.js"></script>
 </body>
 </html>
