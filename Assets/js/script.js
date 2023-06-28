@@ -14,7 +14,7 @@ var score=0;
 function beginQuiz (){
 
     questionContainer.classList.replace("hide","show")
-
+//when the index is the same as the last index of the array, it will end the quiz
     if(index===questions.length){
         endQuiz()
     }
@@ -26,7 +26,7 @@ function beginQuiz (){
     btn4.textContent=questions[index].option4
 
 }
-
+// checks the answer with an if statement and adds pts to score
 function checkAnswer(answer){
     if (answer===questions[index].correct){
         index++
@@ -55,3 +55,17 @@ optionGrid.addEventListener("click",()=>{
     var btnClicked= event.target.textContent
     checkAnswer(btnClicked)
 })
+
+const startingTime = 5;
+let time = startingTime * 60; 
+const countdownTimerEl = document.getElementById('countdownTimer');
+
+setInterval(updateCountdown, 1000);
+
+function updateCountdown() {
+    const minutes = Math.floor(time / 60);
+    let seconds = time % 60;
+
+    countdownTimerEl.innerHTML =`${minutes}: ${seconds}`;
+    time--;
+}
