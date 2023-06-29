@@ -1,6 +1,6 @@
 # Web-Quiz
 # Description 
-This Javascript Quiz is made to quiz the user on Javascript questions, the users selects an answer from a range of questions. The user is timed for 5 minutes. If the user inputs a wrong answer, the timer is subtracted time and when
+This Javascript Quiz is made to quiz the user on Javascript questions, the users selects an answer from a range of questions. The user is timed for 5 minutes. Ideally, if the user inputs a wrong answer, the timer is subtracted time. When the user finishes the quiz, the user is prompted to enter their initials. After they input their initials, they are prompted to click the "High scores" button which will display the initials of the users that finished the quiz from highest to lowest score. 
 # Process for App Deployment
 For Javascript quiz I used Javascript to make dynamic changes to the corresponding HTML document. 
 # How does it work?
