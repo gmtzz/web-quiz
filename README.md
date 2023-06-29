@@ -13,6 +13,8 @@ First the app is displayed in an HTML document that has the purpose of quizzing 
 
 # Where to find the Web Quiz
 The password generator can be found in Github pages, provided below is the link to the application. 
+https://gmtzz.github.io/web-quiz/ 
+https://github.com/gmtzz/web-quiz.git 
 
 
 # The App in Action
@@ -29,3 +31,7 @@ demo video: https://github.com/gmtzz/web-quiz/assets/94001517/a3525a38-0d3b-4699
 
 # Sources
 For this assignment, I used past assignments from module 4 and guidance from my tutor. I also referenced the readme format from my past password generator assignment. I used the following resources: 
+
+YouTube. (2020). How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial. YouTube. Retrieved June 29, 2023, from https://www.youtube.com/watch?v=f4fB9Xg2JEY&amp;ab_channel=BrianDesign. 
+
+YouTube. (2022). Challenge Assignment #4 - Code Quiz (Part 1) | HTML &amp; CSS. YouTube. Retrieved June 29, 2023, from https://www.youtube.com/watch?v=AFTvxsVv52k&amp;t=6230s&amp;ab_channel=WilliamHorn. 
