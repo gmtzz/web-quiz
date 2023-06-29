@@ -40,10 +40,18 @@
                         <li><button id ="btn4">Opt 4</button></li>
 
                     </ul>
-
+                    <!--end of quiz section -->
                 </section>
 
                 <section class="finish-quiz-page hide">
+                    <header class="finished">
+                        <h1 id ="finalScore">0</h1>
+                        <form class ="inputInitialsForm">
+                            <h2 id="end-quiz">Finished! Please enter your initials here: </h2>
+                            <input type="text"initials ="intials" placeholder="Enter your initials">
+                            <button class ="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+                        </form>
+
                     
 
 

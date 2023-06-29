@@ -61,11 +61,16 @@ let time = startingTime * 60;
 const countdownTimerEl = document.getElementById('countdownTimer');
 
 setInterval(updateCountdown, 1000);
-
+//adds timer to countdown from 5 mins
 function updateCountdown() {
     const minutes = Math.floor(time / 60);
     let seconds = time % 60;
 
-    countdownTimerEl.innerHTML =`${minutes}: ${seconds}`;
+    seconds = seconds < 5 ? '0' + seconds : seconds; 
+
+    countdownTimerEl.innerHTML =`${minutes}:${seconds}`;
     time--;
+
+    time = time < 0 ? 0: time;
+    
 }
